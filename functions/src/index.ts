@@ -89,9 +89,8 @@ export const checkIfBirthday = functions.https.onRequest(async (request, respons
 
     if (getThisYearsBirthdayTimestamp(new Date(), date) - flatDate === 0) {
       const message = `
-            🦖 Rawr! It's *${birthday.name}*'s birthday today! 
-            (S)he turned ${getAge(new Date(), date)}. Go congratulate!
-          `;
+        🦖 Rawr! It's *${birthday.name}*'s birthday today!\n🌋 (S)he turned ${getAge(date, new Date())}. Go congratulate!
+      `;
       messages.push(sendTelegramMessage(CHAT_ID, message));
     }
   });
