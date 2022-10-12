@@ -1,0 +1,19 @@
+{
+  "name": "birthday-reminder",
+  "version": "1.0.0",
+  "description": "A Telegram bot that anually reminds you of someone's birthday!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rationelis/birthday-reminder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rationelis/birthday-reminder/issues"
+  },
+  "homepage": "https://github.com/rationelis/birthday-reminder#readme"
+}
